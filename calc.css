@@ -1,0 +1,81 @@
+
+#div
+{
+    align-content: center;
+    width:200px;
+    text-align:center;
+    background-color: rgb(7, 6, 6); 
+    border:2px solid rgb(0, 0, 5);
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px rgb(227, 225, 237);
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 0.5s;
+    position: fixed;
+    top:60px;
+    left: 370px;
+}
+
+
+button
+{
+    color: white;
+    background-color: rgb(7, 7, 7);
+    border:2px;
+    border-radius: 1000px;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+body
+{   background-image: linear-gradient(to  right,rgb(26, 26, 52),rgb(20, 59, 97));
+    background-repeat: no-repeat; 
+    height: 100vh;
+    align-self: center;
+    margin-bottom: 20px;
+}
+#i
+{
+    transition-property: all;
+    transition-duration: 0.5s;
+    height: 50px;
+    width: 175px;
+    border: 2px;
+    border: 0.5px solid rgb(61, 57, 57);
+    border-radius: 15px;
+    text-align: right;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(5, 4, 4, 0.548);
+   
+}
+#d
+{
+    background-color: blue;
+}
+#c
+{
+    font-size: large;
+}
+#b1
+{
+    font-size: larger;
+    font-stretch: expanded;
+}
+
+input:hover
+{
+    box-shadow: 1px 1px 15px rgb(54, 53, 57);
+}  
+button:hover
+{
+    transform: scale(0.9);
+    box-shadow: 1px 1px 15px rgb(106, 105, 105);
+}
